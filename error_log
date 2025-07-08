@@ -1,0 +1,40 @@
+[25-Jun-2025 11:59:16 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[25-Jun-2025 11:59:16 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/u756254243/domains/basilstar.com/public_html/routes/web.php on line 11
+[25-Jun-2025 11:59:16 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[25-Jun-2025 11:59:17 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/u756254243/domains/basilstar.com/public_html/routes/web.php on line 11
+[25-Jun-2025 11:59:17 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[25-Jun-2025 11:59:17 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/u756254243/domains/basilstar.com/public_html/routes/web.php on line 11
+[25-Jun-2025 11:59:17 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[25-Jun-2025 11:59:17 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/u756254243/domains/basilstar.com/public_html/routes/web.php on line 11
+[25-Jun-2025 11:59:31 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[25-Jun-2025 11:59:31 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/u756254243/domains/basilstar.com/public_html/routes/web.php on line 11
+[25-Jun-2025 11:59:31 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[25-Jun-2025 11:59:31 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/u756254243/domains/basilstar.com/public_html/routes/web.php on line 11
+[25-Jun-2025 11:59:31 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[25-Jun-2025 11:59:31 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/u756254243/domains/basilstar.com/public_html/routes/web.php on line 11
+[25-Jun-2025 11:59:31 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[25-Jun-2025 11:59:32 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/u756254243/domains/basilstar.com/public_html/routes/web.php on line 11
+[26-Jun-2025 06:16:57 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 06:20:05 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 07:06:56 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 07:07:40 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 07:10:58 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 07:43:40 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 09:32:29 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 09:33:56 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 09:38:23 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 09:54:06 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 09:54:12 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 09:58:52 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 11:11:58 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 11:11:59 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 11:16:09 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 11:16:24 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 11:18:34 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 11:20:47 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 11:20:56 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 11:21:17 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 11:21:21 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 11:22:43 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 11:27:58 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0
+[26-Jun-2025 11:40:22 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'IST', using 'UTC' instead in Unknown on line 0

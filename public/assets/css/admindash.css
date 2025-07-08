@@ -1,0 +1,103 @@
+
+.main_market_prediction {
+       margin-bottom: 9rem !important;
+
+    }
+    .prediction-section {
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+    .prediction-header h3{
+        color: #ffffff;
+    }
+    .prediction-header p{
+        color: #2c3e50;
+    }
+    .prediction-section:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    }
+    
+    .prediction-header {
+        background: linear-gradient(135deg, #3a7bd5 0%, #00d2ff 100%);
+        color: white;
+        padding: 1.5rem;
+    }
+    
+    .prediction-card {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        transition: all 0.3s ease;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .prediction-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    }
+    
+    .prediction-card-body {
+        padding: 1.25rem;
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .prediction-card-title {
+        font-weight: 600;
+        color: #2c3e50;
+    }
+    
+    .prediction-card-icon {
+        color: #3a7bd5;
+        transition: transform 0.3s ease;
+    }
+    
+    .prediction-card:hover .prediction-card-icon {
+        transform: translateX(5px);
+    }
+    
+    .section-divider {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.1), rgba(0,0,0,0));
+        margin: 2rem 0;
+    }
+    
+    .sebi-badge {
+        background: rgba(255,255,255,0.9);
+        border-radius: 8px;
+        padding: 1rem;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    
+    .sebi-logo {
+        max-width: 80px;
+        height: auto;
+        filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+    }
+    
+    .sebi-text {
+        color: #495057;
+        font-size: 0.85rem;
+    }
+    
+    .sebi-reg {
+        color: #3a7bd5;
+        font-weight: 600;
+    }
+    
+    @media (max-width: 768px) {
+        .prediction-header {
+            padding: 1rem;
+        }
+        
+        .prediction-card-body {
+            padding: 1rem;
+        }
+    }

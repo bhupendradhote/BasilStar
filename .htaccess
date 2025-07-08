@@ -1,0 +1,29 @@
+# Enable mod_rewrite if you are using it
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Redirect all requests to the 'public' directory (for Laravel)
+    RewriteCond %{REQUEST_URI} !^/storage/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+# Prevent direct access to .htaccess file itself
+<Files .htaccess>
+    Require all denied
+</Files>
+
+# Optionally, block hidden files (dotfiles)
+RedirectMatch 403 /\. [NC]
+
+# Allow access to storage directory (public/storage)
+<Directory /path/to/public_html/public/storage>
+    Options FollowSymLinks
+    AllowOverride None
+    Require all granted
+</Directory>
+
+# Ensure that the files in the storage folder are accessible via the symlink
+<IfModule mod_alias.c>
+    # Alias the /storage URL to the actual storage directory
+    Alias /storage /path/to/public_html/storage/app/public
+</IfModule>
