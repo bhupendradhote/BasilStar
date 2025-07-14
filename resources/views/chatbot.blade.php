@@ -10,7 +10,9 @@
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     <script src="https://unpkg.com/lightweight-charts@4.1.1/dist/lightweight-charts.standalone.production.js"></script>
     <style>
-
+    .sig_history1, .sig_history2, .sig_history3,.sig_history4, .sig_history7,.sig_history8,.detail-card{
+display: none !important;
+}
 .select2-container--default .select2-selection--single .select2-selection__rendered {
      line-height: 14px !important;
 }
@@ -20,7 +22,7 @@
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
             padding: 2.5rem;
             /*max-width: 100%;*/
-                /* max-width: 900px; */
+                max-width: 900px;
                 margin: 0 auto;
         }
         .select2-container {
@@ -124,6 +126,7 @@
             padding: 1rem;
             box-sizing: border-box;
             position: relative;
+            display: none;
         }
         #chart { width: 100%; height: 100%; }
         .toggle-switch { position: relative; display: inline-block; width: 38px; height: 22px; }
@@ -201,11 +204,11 @@
                 </div>
             </div>
 
-            <h2 style="" class="section-title mt-8">Trade Recommendation & Strategy</h2>
+            <h2 style="display:none;" class="section-title mt-8">Trade Recommendation & Strategy</h2>
             <div id="tradeRecommendationOutput" class="trade-recommendation"></div>
 
-            <h2 style="" class="section-title mt-8">Interactive Chart Analysis</h2>
-            <div style="" class="mb-4 flex flex-wrap gap-x-6 gap-y-2 justify-center">
+            <h2 style="display:none;" class="section-title mt-8">Interactive Chart Analysis</h2>
+            <div style="display:none;" class="mb-4 flex flex-wrap gap-x-6 gap-y-2 justify-center">
                 <div class="flex items-center space-x-2">
                     <label for="toggleSma" class="text-gray-700 text-sm">10-SMA</label>
                     <label class="toggle-switch"><input type="checkbox" id="toggleSma" checked><span class="toggle-slider"></span></label>
@@ -278,7 +281,7 @@
          * Fetches a list of stock symbols from the Twelve Data API.
          */
         async function loadSymbolsFromApi(exchange = 'NSE') {
-    const apiUrl = `/data/nse_bse_symbols.json`; // Your filtered list
+    const apiUrl = `https://basilstar.com/data/nse_bse_symbols.json`; // Your filtered list
     try {
         const response = await fetch(apiUrl);
         const data = await response.json();

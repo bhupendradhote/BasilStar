@@ -555,8 +555,23 @@
 
         <!-- Image Content -->
         <div>
-            <img src="https://hedge.guide/wp-content/uploads/2020/10/shutterstock_1612684897-768x512.jpg" alt="Smart Trading"
-                class="rounded-3xl w-full object-cover shadow-lg">
+            <!--<img src="https://hedge.guide/wp-content/uploads/2020/10/shutterstock_1612684897-768x512.jpg" alt="Smart Trading"-->
+            <!--    class="rounded-3xl w-full object-cover shadow-lg">-->
+                
+               <div class="w-[600px] h-[600px] rounded-3xl overflow-hidden rounded-3xl w-full ">
+  <video 
+    class="w-full h-full" 
+    autoplay 
+    muted 
+    loop 
+    playsinline
+  >
+    <source src="https://basilstar.com/assets/video/second_new.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+
         </div>
 
     </div>
@@ -577,6 +592,8 @@
                 Stay updated with the latest trends and insights that drive global financial markets, analyze market shifts, and identify key investment opportunities.
             </p>
         </div>
+        
+        
 
         <div class="relative pb-10">
             <div class="swiper-container economy-news-slider">
@@ -623,6 +640,19 @@
                         <p class="text-gray-300">Loading startups news...</p>
                     </div>
                 </div>
+                
+  <!--                             <div class="w-[600px] h-[600px] rounded-3xl overflow-hidden rounded-3xl w-full shadow-lg">-->
+  <!--<video -->
+  <!--  class="w-full h-full" -->
+  <!--  autoplay -->
+  <!--  muted -->
+  <!--  loop -->
+  <!--  playsinline-->
+  <!-->-->
+  <!--  <source src="https://basilstar.com/assets/video/chatbot_vid.mp4" type="video/mp4">-->
+  <!--  Your browser does not support the video tag.-->
+  <!--</video>-->
+</div>
             </div>
         </div>
     </section>

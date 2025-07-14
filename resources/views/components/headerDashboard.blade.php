@@ -2,8 +2,7 @@
 	<div class="header-left">
 		<div class="logo">
 			<div class="logoIcon">
-				<!-- <img class="w-[100px]" src="https://basilstar.com/assets/img/logo/green.png" alt="Basil Star Logo"> -->
-				 Try Bulls
+				<img class="w-[100px]" src="https://basilstar.com/assets/img/logo/green.png" alt="Basil Star Logo">
 			</div>
 		</div>
         <div class="header-title">

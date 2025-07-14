@@ -5,18 +5,7 @@
 					<div class="col-xxl-6 col-xl-6 text-xl-start text-center">
 						<div class="footer-widget">
 							<div class="footer-logo">
-								<!-- <a href="index.html"><img src="assets/img/logo/LogoBasilWhite.png" alt="Logo"></a> -->
-								 <a href="/" class="flex items-center space-x-2 font-extrabold text-2xl text-white hover:text-red-400 transition duration-300">
-  <!-- Optional Bull Icon -->
-  <svg class="w-8 h-8 text-red-500" fill="currentColor" viewBox="0 0 24 24">
-    <path d="M12 2L15 8H9L12 2ZM2 22L12 13L22 22H2Z" />
-  </svg>
-
-  <!-- Text -->
-  <span class="tracking-widest uppercase">
-    Try <span class="text-red-500">Bulls</span>
-  </span>
-</a>
+								<a href="index.html"><img src="assets/img/logo/LogoBasilWhite.png" alt="Logo"></a>
 							</div>
 							<p class="description-text">Choose us for reliable, detail-oriented cleaning that meets all
 								your

@@ -462,14 +462,32 @@
 						</a>
 					</div>
 					@if($prediction)
+					@if($prediction->range)
+					<h2>{{ $prediction->title }}</h2>
+					@endif
 					@if($prediction->image_url)
-					<img src="{{ asset($prediction->image_url) }}" alt="Market Prediction" class="img-fluid rounded mb-3" style="max-height: 300px; object-fit: cover;">
+					<!--<img src="{{ asset($prediction->image_url) }}" alt="Market Prediction" class="img-fluid rounded mb-3" style="max-height: 300px; object-fit: cover;">-->
 					@else
-					<img src="https://placehold.co/600x200/2a2a2a/fff?text=Market+Outlook" alt="Default Image" class="img-fluid rounded mb-3">
+					<!--<img src="https://placehold.co/600x200/2a2a2a/fff?text=Market+Outlook" alt="Default Image" class="img-fluid rounded mb-3">-->
 					@endif
 					<p>{{ \Illuminate\Support\Str::limit($prediction->description, 150) }}</p>
 					@if($prediction->range)
 					<p><strong>Expected range:</strong> {{ $prediction->range }}</p>
+					@endif
+					@if($prediction->range)
+					<p><strong>Support Levels:</strong> {{ $prediction->support_levels }}</p>
+					@endif
+					@if($prediction->range)
+					<p><strong>Resistance Levels:</strong> {{ $prediction->resistance_levels }}</p>
+					@endif
+					@if($prediction->range)
+					<p><strong> Volatility Alert:</strong> {{ $prediction->volatility_alert }}</p>
+					@endif
+					@if($prediction->range)
+					<p><strong> Global Cues:</strong> {{ $prediction->global_cues }}</p>
+					@endif
+					@if($prediction->range)
+					<p><strong>Market Sentiment:</strong> {{ $prediction->market_sentiment	 }}</p>
 					@endif
 					@else
 					<p class="text-muted">No market prediction available.</p>

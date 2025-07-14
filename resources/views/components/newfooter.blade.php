@@ -19,8 +19,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 lg:gap-16 pb-12 border-b border-gray-700">
 
                 <div>
-                  <!-- <img src="assets/img/logo/green.png" alt="Basil Logo" /> -->
-                   
+                  <img src="assets/img/logo/green.png" alt="Basil Logo" />
 <p class="text-gray-400 text-sm leading-relaxed">
     Your AI-powered partner for smart investing.
 

@@ -13,9 +13,9 @@
                 </div>
 
                 @if($prediction->image_url)
-                    <div class="text-center mb-3 mt-3">
-                        <img src="{{ asset($prediction->image_url) }}" alt="Prediction Image" class="img-fluid rounded prediction-image">
-                    </div>
+                    <!--<div class="text-center mb-3 mt-3">-->
+                    <!--    <img src="{{ asset($prediction->image_url) }}" alt="Prediction Image" class="img-fluid rounded prediction-image">-->
+                    <!--</div>-->
                 @endif
 
                 <p class="card-text text-secondary">{{ $prediction->description }}</p>

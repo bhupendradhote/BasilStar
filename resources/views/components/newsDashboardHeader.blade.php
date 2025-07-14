@@ -298,20 +298,9 @@
     {{-- Main Navigation Bar (now below the ticker) --}}
     <div class="max-w-7xl mx-auto py-4 px-4 flex items-center justify-between">
         <div class="flex items-center">
-            <a href="/" class="flex items-center space-x-2 font-extrabold text-2xl text-white hover:text-red-400 transition duration-300">
-            <svg class="w-8 h-8 text-red-500" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2L15 8H9L12 2ZM2 22L12 13L22 22H2Z" />
-            </svg>
-
-            <span class="tracking-widest uppercase">
-                Try <span class="text-red-500">Bulls</span>
-            </span>
+            <a href="/" class="flex items-center space-x-2">
+                <img class="w-[100px]" src="{{ asset('assets/img/logo/green.png') }}" alt="Basil Star Logo">
             </a>
-
-
-
-                <!-- <img class="w-[100px]" src="{{ asset('assets/img/logo/green.png') }}" alt="Basil Star Logo"> -->
-
         </div>
 
         <nav class="nav_bar text-white hidden md:flex items-center space-x-8 text-base font-medium">
@@ -319,7 +308,7 @@
             <a href="/about" class="hover:text-green-400 transition duration-200">About Us</a>
             <a href="/all_news" class="hover:text-green-400 transition duration-200">News</a>
             <a href="/TradingDashboard" class="hover:text-green-400 transition duration-200">Equity Screener</a>
-            <a href="/liveChart" class="hover:text-blue-600 transition duration-200">BullsTrade</a>
+            <a href="/liveChart" class="hover:text-blue-600 transition duration-200">BasilTrade</a>
             <a href="/contact" class="hover:text-green-400 transition duration-200">Contact</a>
             
             

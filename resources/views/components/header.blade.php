@@ -5,8 +5,7 @@
 					<div class="row align-items-center justify-content-between">
 						<div class="col-md-auto col-6">
 							<div class="logo-area">
-								<!-- <a href="index.html"><img class="logo-img" src="assets/img/logo/BasilLogo.png" alt="Header-logo"></a> -->
-								 Try Bulls
+								<a href="index.html"><img class="logo-img" src="assets/img/logo/BasilLogo.png" alt="Header-logo"></a>
 							</div>
 						</div>
 						<div class="col-md-auto d-flex align-items-center justify-content-end d-lg-inline-block d-none">
