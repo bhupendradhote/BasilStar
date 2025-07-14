@@ -141,7 +141,7 @@ function loadStock(symbol) {
 }
 
 function loadSymbolsFromApi(exchangeShort) {
-    const url = `/data/nse_bse_symbols.json`; // Local JSON instead of FMP API
+    const url = `https://basilstar.com/data/nse_bse_symbols.json`; // Local JSON instead of FMP API
 
     $.ajax({
         url,
@@ -174,7 +174,7 @@ function loadSymbolsFromApi(exchangeShort) {
                 loadStock(defaultSymbol);
             } else {
                 $('#analysis-output').addClass('hidden');
-                showMessageBox('Please select a stock to begin analysis.', 'info');
+                // showMessageBox('Please select a stock to begin analysis.', 'info');
             }
 
             dropdown.on('change', function () {
